@@ -1,0 +1,250 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    background: #eee;
+}
+.logo{
+    margin-bottom: 0;
+    font-family: "Long Cang", cursive;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.logo a {
+    font-size: 3rem;
+    font-weight: 300;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo i {
+    color: #f1c40f;
+    font-size: 3.5rem;
+    margin-right: 0.5rem;
+}
+.header ul li a:hover{
+    color: #f1c40f;
+}
+.header{
+    padding: 2rem 2rem;
+    background: #333;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    line-height: 3.8rem;
+}
+.header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+
+}
+.header ul li{
+    padding: 1rem;
+    font-size: 2rem;
+}
+/* -----------------------------------section 2-------------------- */
+.bloc{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/frame.jpg ) center center / cover;
+}
+.box{
+    max-width: 850px;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+.box h1{
+
+    font-size: 4rem;
+}
+.box strong {
+    color: #f1c40f;
+    font-weight: 700;
+
+}
+.box p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2rem;
+
+}
+/* -----------------Section 3 Offre------------------ */
+.container{
+    display: block;
+    max-width: 154rem;
+    margin: auto;
+
+}
+.offre{
+    padding: 10rem 1rem;
+
+}
+.cards{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  
+}
+.card{
+    border: 1px solid #ddd;
+    background: white;
+    margin: 1rem;
+    flex: 1;
+}
+.titre{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.inderline{
+    margin: 1rem auto;
+    height: 2px;
+    width: 50px;
+    background: #333;
+}
+.card-item{
+    text-align: center;
+}
+/* -----------------Section foor Team---------------------- */
+.team{
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 600px;
+}
+   
+.team-img{
+    
+    background: url(/img/team.jpg) center center / cover;
+    width: 50%;
+}
+
+.content{
+    background: #333;
+    color: white;
+    flex: 1;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content h2{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.content span{
+    color: #f1c40f;
+    font-weight: 400;
+}
+.content p{
+    font-size: 2.3rem;
+    line-height: 3.8rem;
+
+}
+/* ----------------------------Section five Tempoignage----------- */
+.temoignage{
+    padding: 5rem 1rem;
+}
+.temoignage .titre{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.temo-item{
+    display: flex;
+    flex-direction: column;
+}
+.temo-text{
+    display: flex;
+    align-items: center;
+    padding: 2rem 9rem;
+   
+}
+.temo-card{
+    padding: 3rem 2rem;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+.temo-card img{
+    width: 68px;
+    height: 68px;
+    border-radius: 50px;
+    margin-bottom: 0.5rem;
+}
+.temo-text p{
+    padding: 0px 7px;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.profile p{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+/* -----------------Section six Contact------------- */
+.contact{
+    padding: 10rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: white;
+
+}
+.contact .titre{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.contact .titre span{
+    color: #f1c40f;
+}
+.myForm{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact-form input{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #555;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    outline: 0;
+    margin-bottom: 1rem;
+
+}
+.contact-form button{
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    border: 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #f1c40f;
+    color: white;
+    font-weight: 800;
+    
+}
+
+.contact-form button:hover{
+    background: red;
+}
+/* ---------------------Footer-------------- */
+footer{
+    background: #5c5656;
+    padding: 5rem 1rem;
+    color: white;
+    text-align: center;
+}
